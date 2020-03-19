@@ -30,9 +30,9 @@ def get_death_change(data, current):
 		i += 1
 	return None
 
-def create_estimate(data, tod, mort_rat):
+def create_estimate(data, tod, mort_rat, s_death):
 	new = [0] * len(data.index)
-	start = get_death_change(data, 0)
+	start = get_death_change(data, s_death)
 	if not start or start < 20:
 		return None
 	new[start - 20] = int(infected_based_deaths(data['deaths'][start], mort_rat))
@@ -70,10 +70,15 @@ if __name__ == "__main__":
 	all_data = pd.concat(all_days).groupby(['countryRegion', 'date']).sum()
 	countries_interest = ['Belgium']
 	data_sets = list()
+	total_est = 0
 	for country in countries_interest:
 		new = all_data.loc[country]
-		est = create_estimate(new, 7, 1)
-		new['estimate'] = est
+		d = 0
+		while d < new['deaths'][-1]:
+			est = create_estimate(new, 7, 1, d)
+			new[f'estimate{total_est}'] = est
+			total_est += 1
+			d = new['deaths'][get_death_change(new, d)]
 		data_sets.append(new)
 		print(new)
 	
@@ -84,7 +89,10 @@ if __name__ == "__main__":
 		ax.plot(data_sets[i].index, data_sets[i]['confirmed'], label=f'{countries_interest[i]} Confirmed')
 		# ax.plot(data_sets[i].index, data_sets[i]['recovered'], label=f'{countries_interest[i]} Recovered')
 		# ax.plot(data_sets[i].index, data_sets[i]['deaths'], label=f'{countries_interest[i]} Deaths')
-		ax.plot(data_sets[i].index, data_sets[i]['estimate'], label=f'{countries_interest[i]} Estimated Infected')
+		k = 0
+		while k < total_est:
+			ax.plot(data_sets[i].index, data_sets[i][f'estimate{k}'], label=f'{countries_interest[i]} Estimated Infected {k}')
+			k += 1
 		i += 1
 	fig.legend(bbox_to_anchor=(-0.15, 0.25, 0.5, 0.5))
 	fig.suptitle('Countries of interest timeline')
