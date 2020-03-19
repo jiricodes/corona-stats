@@ -60,7 +60,17 @@ def create_estimate(data, tod, mort_rat, s_death):
 			k += 1
 	return new
 
-
+def get_median_estimate(data):
+	est = list()
+	i = 0
+	while i < len(data[0]):
+		tmp = list()
+		for line in data:
+			tmp.append(line[i])
+		m = statistics.median_grouped(tmp)
+		est.append(m)
+		i += 1
+	return est 
 if __name__ == "__main__":
 	all_days = list()
 	for file in os.listdir('daily-stats/'):
@@ -70,15 +80,16 @@ if __name__ == "__main__":
 	all_data = pd.concat(all_days).groupby(['countryRegion', 'date']).sum()
 	countries_interest = ['Belgium']
 	data_sets = list()
-	total_est = 0
 	for country in countries_interest:
 		new = all_data.loc[country]
+		all_estimates = list()
 		d = 0
 		while d < new['deaths'][-1]:
 			est = create_estimate(new, 7, 1, d)
-			new[f'estimate{total_est}'] = est
-			total_est += 1
+			all_estimates.append(est)
 			d = new['deaths'][get_death_change(new, d)]
+		med_est = get_median_estimate(all_estimates)
+		new['estimate'] = med_est
 		data_sets.append(new)
 		print(new)
 	
@@ -89,10 +100,7 @@ if __name__ == "__main__":
 		ax.plot(data_sets[i].index, data_sets[i]['confirmed'], label=f'{countries_interest[i]} Confirmed')
 		# ax.plot(data_sets[i].index, data_sets[i]['recovered'], label=f'{countries_interest[i]} Recovered')
 		# ax.plot(data_sets[i].index, data_sets[i]['deaths'], label=f'{countries_interest[i]} Deaths')
-		k = 0
-		while k < total_est:
-			ax.plot(data_sets[i].index, data_sets[i][f'estimate{k}'], label=f'{countries_interest[i]} Estimated Infected {k}')
-			k += 1
+		ax.plot(data_sets[i].index, data_sets[i][f'estimate'], label=f'{countries_interest[i]} Estimated Infected')
 		i += 1
 	fig.legend(bbox_to_anchor=(-0.15, 0.25, 0.5, 0.5))
 	fig.suptitle('Countries of interest timeline')
