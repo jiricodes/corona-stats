@@ -45,6 +45,19 @@ def create_estimate(data, tod, mort_rat):
 			k = 1
 		else:
 			k += 1
+	i = start - 20
+	k = 1
+	while i - k >= 0:
+		value = int(new[i] - (k * new[i] / 2 / tod))
+		if value < 0:
+			break
+		else:
+			new[i - k] = value
+		if k == tod:
+			i = i - k
+			k = 1
+		else:
+			k += 1
 	return new
 
 
@@ -62,7 +75,7 @@ if __name__ == "__main__":
 		est = create_estimate(new, 7, 1)
 		new['estimate'] = est
 		data_sets.append(new)
-		# print(new)
+		print(new)
 	
 	# Plottings
 	fig, ax = pl.subplots()
