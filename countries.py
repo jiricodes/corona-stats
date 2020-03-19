@@ -6,34 +6,7 @@ import pandas as pd
 import datetime as dt
 import matplotlib.pyplot as pl
 import statistics
-
-def load_daydata(filename):
-	def transcribe_counts(daily_data):
-		for item in daily_data['data']:
-			if item['confirmed'] == "":
-				item['confirmed'] = 0
-			else:
-				item['confirmed'] = int(item['confirmed'])
-			if item['deaths'] == "":
-				item['deaths'] = 0
-			else:
-				item['deaths'] = int(item['deaths'])
-			if item['recovered'] == "":
-				item['recovered'] = 0
-			else:
-				item['recovered'] = int(item['recovered'])
-		return daily_data
-
-	with open(filename, 'r') as f:
-		daily_data = json.load(f)
-
-	daily_data = transcribe_counts(daily_data)
-	ddata = pd.DataFrame(daily_data['data'])
-	tmp = ddata.drop(['provinceState', 'lastUpdate'], axis=1)
-	countries_daily = tmp.groupby('countryRegion').sum()
-	date_stamp = dt.datetime.fromtimestamp(daily_data['timestamp'])
-	countries_daily['date'] = date_stamp
-	return countries_daily
+from srcs.load_dailydata import load_daydata
 
 def dataframe_tojson(country, data):
 	data.to_json(f'{country}.json')
@@ -50,7 +23,8 @@ if __name__ == "__main__":
 	
 	all_data = pd.concat(all_days).groupby(['countryRegion', 'date']).sum()
 	# countries_interest = ['Finland', 'Italy', 'Iran', 'US', 'Japan', 'South Korea']
-	countries_interest = ['Finland', 'France', 'UK', 'Germany', 'Belgium']
+	# countries_interest = ['Finland', 'France', 'UK', 'Germany', 'Belgium']
+	countries_interest = ['Belgium']
 	data_sets = list()
 	for country in countries_interest:
 		new = all_data.loc[country]
@@ -112,6 +86,10 @@ if __name__ == "__main__":
 	while i < len(countries_interest):
 		ax.step(data_sets[i].index, data_sets[i]['confirmed'], where='mid', label=f'{countries_interest[i]} Confirmed')
 		ax.plot(data_sets[i].index, data_sets[i]['confirmed'], color='grey', alpha=0.3)
+		ax.step(data_sets[i].index, data_sets[i]['recovered'], where='mid', label=f'{countries_interest[i]} Recovered')
+		ax.plot(data_sets[i].index, data_sets[i]['recovered'], color='grey', alpha=0.3)
+		ax.step(data_sets[i].index, data_sets[i]['deaths'], where='mid', label=f'{countries_interest[i]} Deaths')
+		ax.plot(data_sets[i].index, data_sets[i]['deaths'], color='grey', alpha=0.3)
 		i += 1
 	fig.legend(bbox_to_anchor=(-0.15, 0.25, 0.5, 0.5))
 	fig.suptitle('Countries of interest timeline')

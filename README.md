@@ -7,6 +7,20 @@
 data fixing script
 	- Korea, South
 	- Mailand China
+
+### Deaths based model
+Transcribe data to:
+```
+{
+	'country': 'name'
+	'deaths': [
+		int,
+		int,
+		int,
+		...
+	]
+}
+```
 - transcribe data
 	- Pandas & Numpy?
 	- design structure
@@ -26,3 +40,12 @@ data fixing script
 DATE
 ## Resources
 [Mathdroid API](https://github.com/mathdroid/covid-19-api)
+
+## Requirements
+```
+python3
+numpy
+pandas
+matplotlib
+requests
+```
