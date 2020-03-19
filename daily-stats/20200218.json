@@ -1,0 +1,605 @@
+{
+    "timestamp": 1581976800.0,
+    "data": [
+        {
+            "provinceState": "Hubei",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T23:13:11",
+            "confirmed": "61682",
+            "deaths": "1921",
+            "recovered": "9128"
+        },
+        {
+            "provinceState": "Guangdong",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T13:43:02",
+            "confirmed": "1328",
+            "deaths": "4",
+            "recovered": "565"
+        },
+        {
+            "provinceState": "Henan",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T14:23:02",
+            "confirmed": "1257",
+            "deaths": "19",
+            "recovered": "522"
+        },
+        {
+            "provinceState": "Zhejiang",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T12:23:02",
+            "confirmed": "1172",
+            "deaths": "0",
+            "recovered": "535"
+        },
+        {
+            "provinceState": "Hunan",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T13:43:02",
+            "confirmed": "1007",
+            "deaths": "4",
+            "recovered": "527"
+        },
+        {
+            "provinceState": "Anhui",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T13:43:02",
+            "confirmed": "982",
+            "deaths": "6",
+            "recovered": "361"
+        },
+        {
+            "provinceState": "Jiangxi",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T01:33:01",
+            "confirmed": "933",
+            "deaths": "1",
+            "recovered": "310"
+        },
+        {
+            "provinceState": "Jiangsu",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T12:33:02",
+            "confirmed": "629",
+            "deaths": "0",
+            "recovered": "280"
+        },
+        {
+            "provinceState": "Chongqing",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T23:23:03",
+            "confirmed": "555",
+            "deaths": "5",
+            "recovered": "254"
+        },
+        {
+            "provinceState": "Shandong",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T12:13:08",
+            "confirmed": "543",
+            "deaths": "3",
+            "recovered": "211"
+        },
+        {
+            "provinceState": "Diamond Princess cruise ship",
+            "countryRegion": "Others",
+            "lastUpdate": "2020-02-18T16:53:03",
+            "confirmed": "542",
+            "deaths": "0",
+            "recovered": "0"
+        },
+        {
+            "provinceState": "Sichuan",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T12:33:02",
+            "confirmed": "508",
+            "deaths": "3",
+            "recovered": "169"
+        },
+        {
+            "provinceState": "Heilongjiang",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T11:03:12",
+            "confirmed": "464",
+            "deaths": "11",
+            "recovered": "111"
+        },
+        {
+            "provinceState": "Beijing",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T02:13:06",
+            "confirmed": "387",
+            "deaths": "4",
+            "recovered": "122"
+        },
+        {
+            "provinceState": "Shanghai",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T05:03:08",
+            "confirmed": "333",
+            "deaths": "1",
+            "recovered": "177"
+        },
+        {
+            "provinceState": "Hebei",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T23:53:01",
+            "confirmed": "306",
+            "deaths": "4",
+            "recovered": "136"
+        },
+        {
+            "provinceState": "Fujian",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T09:43:08",
+            "confirmed": "292",
+            "deaths": "0",
+            "recovered": "93"
+        },
+        {
+            "provinceState": "Guangxi",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T12:33:02",
+            "confirmed": "242",
+            "deaths": "2",
+            "recovered": "69"
+        },
+        {
+            "provinceState": "Shaanxi",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T14:23:02",
+            "confirmed": "240",
+            "deaths": "0",
+            "recovered": "89"
+        },
+        {
+            "provinceState": "Yunnan",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T09:43:08",
+            "confirmed": "172",
+            "deaths": "0",
+            "recovered": "57"
+        },
+        {
+            "provinceState": "Hainan",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T10:43:02",
+            "confirmed": "163",
+            "deaths": "4",
+            "recovered": "79"
+        },
+        {
+            "provinceState": "Guizhou",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T13:33:02",
+            "confirmed": "146",
+            "deaths": "2",
+            "recovered": "66"
+        },
+        {
+            "provinceState": "Shanxi",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T23:23:03",
+            "confirmed": "131",
+            "deaths": "0",
+            "recovered": "61"
+        },
+        {
+            "provinceState": "Tianjin",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T13:53:02",
+            "confirmed": "128",
+            "deaths": "3",
+            "recovered": "48"
+        },
+        {
+            "provinceState": "Liaoning",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T12:53:02",
+            "confirmed": "121",
+            "deaths": "1",
+            "recovered": "53"
+        },
+        {
+            "provinceState": "Gansu",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T14:53:02",
+            "confirmed": "91",
+            "deaths": "2",
+            "recovered": "62"
+        },
+        {
+            "provinceState": "Jilin",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T07:43:02",
+            "confirmed": "89",
+            "deaths": "1",
+            "recovered": "36"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Singapore",
+            "lastUpdate": "2020-02-18T16:53:03",
+            "confirmed": "81",
+            "deaths": "0",
+            "recovered": "29"
+        },
+        {
+            "provinceState": "Xinjiang",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T01:03:15",
+            "confirmed": "76",
+            "deaths": "1",
+            "recovered": "12"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Japan",
+            "lastUpdate": "2020-02-18T17:23:04",
+            "confirmed": "74",
+            "deaths": "1",
+            "recovered": "13"
+        },
+        {
+            "provinceState": "Inner Mongolia",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T02:03:06",
+            "confirmed": "73",
+            "deaths": "0",
+            "recovered": "8"
+        },
+        {
+            "provinceState": "Ningxia",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T10:23:03",
+            "confirmed": "70",
+            "deaths": "0",
+            "recovered": "42"
+        },
+        {
+            "provinceState": "Hong Kong",
+            "countryRegion": "Hong Kong",
+            "lastUpdate": "2020-02-18T23:43:02",
+            "confirmed": "62",
+            "deaths": "1",
+            "recovered": "2"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Thailand",
+            "lastUpdate": "2020-02-17T07:33:02",
+            "confirmed": "35",
+            "deaths": "0",
+            "recovered": "15"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "South Korea",
+            "lastUpdate": "2020-02-18T03:43:02",
+            "confirmed": "31",
+            "deaths": "0",
+            "recovered": "12"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Malaysia",
+            "lastUpdate": "2020-02-18T16:23:02",
+            "confirmed": "22",
+            "deaths": "0",
+            "recovered": "13"
+        },
+        {
+            "provinceState": "Taiwan",
+            "countryRegion": "Taiwan",
+            "lastUpdate": "2020-02-17T15:43:02",
+            "confirmed": "22",
+            "deaths": "1",
+            "recovered": "2"
+        },
+        {
+            "provinceState": "Qinghai",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-18T07:43:02",
+            "confirmed": "18",
+            "deaths": "0",
+            "recovered": "15"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Germany",
+            "lastUpdate": "2020-02-18T17:03:03",
+            "confirmed": "16",
+            "deaths": "0",
+            "recovered": "12"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Vietnam",
+            "lastUpdate": "2020-02-13T06:33:02",
+            "confirmed": "16",
+            "deaths": "0",
+            "recovered": "7"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "France",
+            "lastUpdate": "2020-02-15T20:53:02",
+            "confirmed": "12",
+            "deaths": "1",
+            "recovered": "4"
+        },
+        {
+            "provinceState": "Macau",
+            "countryRegion": "Macau",
+            "lastUpdate": "2020-02-16T12:03:06",
+            "confirmed": "10",
+            "deaths": "0",
+            "recovered": "5"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "UK",
+            "lastUpdate": "2020-02-16T16:23:06",
+            "confirmed": "9",
+            "deaths": "0",
+            "recovered": "8"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "United Arab Emirates",
+            "lastUpdate": "2020-02-16T20:43:02",
+            "confirmed": "9",
+            "deaths": "0",
+            "recovered": "4"
+        },
+        {
+            "provinceState": "Queensland",
+            "countryRegion": "Australia",
+            "lastUpdate": "2020-02-09T19:33:02",
+            "confirmed": "5",
+            "deaths": "0",
+            "recovered": "0"
+        },
+        {
+            "provinceState": "British Columbia",
+            "countryRegion": "Canada",
+            "lastUpdate": "2020-02-17T08:03:07",
+            "confirmed": "5",
+            "deaths": "0",
+            "recovered": "0"
+        },
+        {
+            "provinceState": "New South Wales",
+            "countryRegion": "Australia",
+            "lastUpdate": "2020-02-13T17:53:03",
+            "confirmed": "4",
+            "deaths": "0",
+            "recovered": "4"
+        },
+        {
+            "provinceState": "Victoria",
+            "countryRegion": "Australia",
+            "lastUpdate": "2020-02-13T17:53:03",
+            "confirmed": "4",
+            "deaths": "0",
+            "recovered": "4"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "India",
+            "lastUpdate": "2020-02-16T07:43:02",
+            "confirmed": "3",
+            "deaths": "0",
+            "recovered": "3"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Italy",
+            "lastUpdate": "2020-02-07T17:53:02",
+            "confirmed": "3",
+            "deaths": "0",
+            "recovered": "0"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Philippines",
+            "lastUpdate": "2020-02-12T07:43:02",
+            "confirmed": "3",
+            "deaths": "1",
+            "recovered": "1"
+        },
+        {
+            "provinceState": "South Australia",
+            "countryRegion": "Australia",
+            "lastUpdate": "2020-02-17T08:13:09",
+            "confirmed": "2",
+            "deaths": "0",
+            "recovered": "2"
+        },
+        {
+            "provinceState": "Toronto, ON",
+            "countryRegion": "Canada",
+            "lastUpdate": "2020-02-04T00:13:06",
+            "confirmed": "2",
+            "deaths": "0",
+            "recovered": "0"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Russia",
+            "lastUpdate": "2020-02-12T14:43:03",
+            "confirmed": "2",
+            "deaths": "0",
+            "recovered": "2"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Spain",
+            "lastUpdate": "2020-02-15T17:23:04",
+            "confirmed": "2",
+            "deaths": "0",
+            "recovered": "2"
+        },
+        {
+            "provinceState": "Chicago, IL",
+            "countryRegion": "US",
+            "lastUpdate": "2020-02-09T19:03:03",
+            "confirmed": "2",
+            "deaths": "0",
+            "recovered": "2"
+        },
+        {
+            "provinceState": "San Benito, CA",
+            "countryRegion": "US",
+            "lastUpdate": "2020-02-03T03:53:02",
+            "confirmed": "2",
+            "deaths": "0",
+            "recovered": "0"
+        },
+        {
+            "provinceState": "San Diego County, CA",
+            "countryRegion": "US",
+            "lastUpdate": "2020-02-13T03:13:08",
+            "confirmed": "2",
+            "deaths": "0",
+            "recovered": "0"
+        },
+        {
+            "provinceState": "Santa Clara, CA",
+            "countryRegion": "US",
+            "lastUpdate": "2020-02-03T00:43:02",
+            "confirmed": "2",
+            "deaths": "0",
+            "recovered": "0"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Belgium",
+            "lastUpdate": "2020-02-17T04:23:06",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "1"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Cambodia",
+            "lastUpdate": "2020-02-12T07:43:02",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "1"
+        },
+        {
+            "provinceState": "London, ON",
+            "countryRegion": "Canada",
+            "lastUpdate": "2020-02-12T18:53:03",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "1"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Egypt",
+            "lastUpdate": "2020-02-14T23:53:02",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "0"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Finland",
+            "lastUpdate": "2020-02-12T00:03:12",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "1"
+        },
+        {
+            "provinceState": "Tibet",
+            "countryRegion": "China",
+            "lastUpdate": "2020-02-12T06:43:02",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "1"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Nepal",
+            "lastUpdate": "2020-02-12T14:43:03",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "1"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Sri Lanka",
+            "lastUpdate": "2020-02-08T03:43:03",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "1"
+        },
+        {
+            "provinceState": "",
+            "countryRegion": "Sweden",
+            "lastUpdate": "2020-02-01T02:13:26",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "0"
+        },
+        {
+            "provinceState": "Boston, MA",
+            "countryRegion": "US",
+            "lastUpdate": "2020-02-01T19:43:03",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "0"
+        },
+        {
+            "provinceState": "Los Angeles, CA",
+            "countryRegion": "US",
+            "lastUpdate": "2020-02-01T19:53:03",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "0"
+        },
+        {
+            "provinceState": "Madison, WI",
+            "countryRegion": "US",
+            "lastUpdate": "2020-02-05T21:53:02",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "0"
+        },
+        {
+            "provinceState": "Orange, CA",
+            "countryRegion": "US",
+            "lastUpdate": "2020-02-01T19:53:03",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "0"
+        },
+        {
+            "provinceState": "San Antonio, TX",
+            "countryRegion": "US",
+            "lastUpdate": "2020-02-13T18:53:02",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "0"
+        },
+        {
+            "provinceState": "Seattle, WA",
+            "countryRegion": "US",
+            "lastUpdate": "2020-02-09T07:03:04",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "1"
+        },
+        {
+            "provinceState": "Tempe, AZ",
+            "countryRegion": "US",
+            "lastUpdate": "2020-02-01T19:43:03",
+            "confirmed": "1",
+            "deaths": "0",
+            "recovered": "0"
+        }
+    ]
+}

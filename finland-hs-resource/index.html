@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>Finland's Corona by Jiri Novotny</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+	<script src="https://cdn.jsdelivr.net/npm/@turf/turf@5/turf.min.js"></script>
+	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+	<link href='mapbox_styles.css' type='text/css' rel='stylesheet'>
+	<link rel="icon" href="../images/icons/jiricodes-icon.ico">
+  </head>
+  <body>
+	<!-- <div class="left_bar">
+	</div> -->
+	<div id='map'>
+		<div id="logoContainer">
+			<img src="../images/jiricodes_black.png"></img>
+		</div>
+	</div>
+    <script>
+    mapboxgl.accessToken = 'pk.eyJ1Ijoiam5vdm90bnkiLCJhIjoiY2s3Y3dyemJiMHVjZzNtcndqdm9sYmt4ZiJ9.rP_aovQgLn-MOK5wRDdGlw';
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/jnovotny/ck7rb4oik1nqh1ip8ha3ka5kt',
+      center: [28.042262, 65.646315],
+      zoom: 4.65
+    });
+
+	map.addControl(new mapboxgl.FullscreenControl());
+
+	// var getJSON = function(url, callback) {
+	// 	var xhr = new XMLHttpRequest();
+	// 	xhr.open('GET', url, true);
+	// 	xhr.responseType = 'json';
+	// 	xhr.onload = function() {
+	// 		var status = xhr.status;
+	// 		if (status === 200) {
+	// 			callback(null, xhr.response);
+	// 		} else {
+	// 			callback(status, xhr.response);
+	// 		}
+	// 	};
+	// 	xhr.send();
+	// };
+
+	// map.on('load', function() {
+	// 	getJSON("https://w3qa5ydb4l.execute-api.eu-west-1.amazonaws.com/prod/finnishCoronaData", function (code, response) {
+	// 		// console.log(response);
+	// 		response.confirmed.forEach(element => {
+	// 			console.log(element.id + ": " + element.healthCareDistrict)
+	// 		});
+	// 	});
+
+
+	});
+    </script>
+  </body>
+</html>
