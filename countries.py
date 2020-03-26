@@ -93,4 +93,5 @@ if __name__ == "__main__":
 		i += 1
 	fig.legend(bbox_to_anchor=(-0.15, 0.25, 0.5, 0.5))
 	fig.suptitle('Countries of interest timeline')
+	ax.set_xlabel('Dates')
 	pl.show()

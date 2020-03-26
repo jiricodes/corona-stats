@@ -4,7 +4,7 @@ import requests
 import json
 
 # Start date
-start_datestr = "03/15/2020"
+start_datestr = "03/19/2020"
 start_date = datetime.datetime.strptime(start_datestr, "%m/%d/%Y")
 # End date
 end_date = datetime.datetime.fromtimestamp(time.time())
