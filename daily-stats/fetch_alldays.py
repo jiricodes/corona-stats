@@ -1,10 +1,11 @@
+#!/usr/bin/python3
 import time
 import datetime
 import requests
 import json
 
 # Start date
-start_datestr = "03/19/2020"
+start_datestr = "03/21/2020"
 start_date = datetime.datetime.strptime(start_datestr, "%m/%d/%Y")
 # End date
 end_date = datetime.datetime.fromtimestamp(time.time())
