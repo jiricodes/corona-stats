@@ -33,7 +33,7 @@
         },
         {
             "provinceState": "",
-            "countryRegion": "South Korea",
+            "countryRegion": "Korea, South",
             "lastUpdate": "2020-03-12T05:13:02",
             "confirmed": "7869",
             "deaths": "66",
@@ -2113,7 +2113,7 @@
         },
         {
             "provinceState": "Gansu",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-03-11T02:18:28",
             "confirmed": "0",
             "deaths": "0",
@@ -2123,7 +2123,7 @@
         },
         {
             "provinceState": "Hebei",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-03-11T02:18:29",
             "confirmed": "0",
             "deaths": "0",

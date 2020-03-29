@@ -3,7 +3,7 @@
     "data": [
         {
             "provinceState": "Hubei",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T23:13:06",
             "confirmed": "59989",
             "deaths": "1789",
@@ -11,7 +11,7 @@
         },
         {
             "provinceState": "Guangdong",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T12:43:02",
             "confirmed": "1322",
             "deaths": "4",
@@ -19,7 +19,7 @@
         },
         {
             "provinceState": "Henan",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T14:53:02",
             "confirmed": "1246",
             "deaths": "16",
@@ -27,7 +27,7 @@
         },
         {
             "provinceState": "Zhejiang",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T11:23:06",
             "confirmed": "1171",
             "deaths": "0",
@@ -35,7 +35,7 @@
         },
         {
             "provinceState": "Hunan",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T11:43:01",
             "confirmed": "1006",
             "deaths": "3",
@@ -43,7 +43,7 @@
         },
         {
             "provinceState": "Anhui",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T09:13:07",
             "confirmed": "973",
             "deaths": "6",
@@ -51,7 +51,7 @@
         },
         {
             "provinceState": "Jiangxi",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T01:33:02",
             "confirmed": "930",
             "deaths": "1",
@@ -59,7 +59,7 @@
         },
         {
             "provinceState": "Jiangsu",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T10:23:04",
             "confirmed": "626",
             "deaths": "0",
@@ -67,7 +67,7 @@
         },
         {
             "provinceState": "Chongqing",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T23:13:06",
             "confirmed": "553",
             "deaths": "5",
@@ -75,7 +75,7 @@
         },
         {
             "provinceState": "Shandong",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T11:03:06",
             "confirmed": "541",
             "deaths": "2",
@@ -83,7 +83,7 @@
         },
         {
             "provinceState": "Sichuan",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T13:13:09",
             "confirmed": "495",
             "deaths": "3",
@@ -91,7 +91,7 @@
         },
         {
             "provinceState": "Heilongjiang",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T08:03:06",
             "confirmed": "457",
             "deaths": "11",
@@ -107,7 +107,7 @@
         },
         {
             "provinceState": "Beijing",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T01:23:02",
             "confirmed": "381",
             "deaths": "4",
@@ -115,7 +115,7 @@
         },
         {
             "provinceState": "Shanghai",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T23:53:02",
             "confirmed": "333",
             "deaths": "1",
@@ -123,7 +123,7 @@
         },
         {
             "provinceState": "Hebei",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T13:03:06",
             "confirmed": "301",
             "deaths": "3",
@@ -131,7 +131,7 @@
         },
         {
             "provinceState": "Fujian",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T10:23:04",
             "confirmed": "290",
             "deaths": "0",
@@ -139,7 +139,7 @@
         },
         {
             "provinceState": "Shaanxi",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T11:43:01",
             "confirmed": "240",
             "deaths": "0",
@@ -147,7 +147,7 @@
         },
         {
             "provinceState": "Guangxi",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T10:23:04",
             "confirmed": "238",
             "deaths": "2",
@@ -155,7 +155,7 @@
         },
         {
             "provinceState": "Yunnan",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T10:23:04",
             "confirmed": "171",
             "deaths": "0",
@@ -163,7 +163,7 @@
         },
         {
             "provinceState": "Hainan",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T11:03:06",
             "confirmed": "163",
             "deaths": "4",
@@ -171,7 +171,7 @@
         },
         {
             "provinceState": "Guizhou",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T11:13:16",
             "confirmed": "146",
             "deaths": "1",
@@ -179,7 +179,7 @@
         },
         {
             "provinceState": "Shanxi",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T22:53:01",
             "confirmed": "130",
             "deaths": "0",
@@ -187,7 +187,7 @@
         },
         {
             "provinceState": "Tianjin",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T12:43:02",
             "confirmed": "125",
             "deaths": "3",
@@ -195,7 +195,7 @@
         },
         {
             "provinceState": "Liaoning",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T11:13:16",
             "confirmed": "121",
             "deaths": "1",
@@ -203,7 +203,7 @@
         },
         {
             "provinceState": "Gansu",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T14:53:02",
             "confirmed": "91",
             "deaths": "2",
@@ -211,7 +211,7 @@
         },
         {
             "provinceState": "Jilin",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T11:03:06",
             "confirmed": "89",
             "deaths": "1",
@@ -227,7 +227,7 @@
         },
         {
             "provinceState": "Xinjiang",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T01:53:01",
             "confirmed": "75",
             "deaths": "1",
@@ -235,7 +235,7 @@
         },
         {
             "provinceState": "Inner Mongolia",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T02:03:06",
             "confirmed": "72",
             "deaths": "0",
@@ -243,7 +243,7 @@
         },
         {
             "provinceState": "Ningxia",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-17T11:03:06",
             "confirmed": "70",
             "deaths": "0",
@@ -299,7 +299,7 @@
         },
         {
             "provinceState": "Qinghai",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-15T08:43:03",
             "confirmed": "18",
             "deaths": "0",
@@ -515,7 +515,7 @@
         },
         {
             "provinceState": "Tibet",
-            "countryRegion": "China",
+            "countryRegion": "Mainland China",
             "lastUpdate": "2020-02-12T06:43:02",
             "confirmed": "1",
             "deaths": "0",

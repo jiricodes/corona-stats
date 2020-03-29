@@ -13,14 +13,19 @@ Transcribe data to:
 ```
 {
 	'country': 'name'
-	'deaths': [
-		int,
-		int,
-		int,
+	'daily': [{
+		'deaths': int,
+		'confirmed': int,
+		'recovered': int,
+		'ratio_confirmed': int,
+		'estimate_infected': int;
+	},
 		...
 	]
 }
 ```
+Day 0:
+	20 day before the first death
 - transcribe data
 	- Pandas & Numpy?
 	- design structure

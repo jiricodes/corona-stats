@@ -22,7 +22,6 @@ def load_daydata(filename):
 
 	with open(filename, 'r') as f:
 		daily_data = json.load(f)
-
 	daily_data = transcribe_counts(daily_data)
 	ddata = pd.DataFrame(daily_data['data'])
 	tmp = ddata.drop(['provinceState', 'lastUpdate'], axis=1)
