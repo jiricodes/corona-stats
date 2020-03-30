@@ -67,10 +67,22 @@ def get_median_estimate(data):
 		tmp = list()
 		for line in data:
 			tmp.append(line[i])
-		m = statistics.median_grouped(tmp)
+		m = int(statistics.median_grouped(tmp))
 		est.append(m)
 		i += 1
-	return est 
+	return est
+
+def norm_dayzero(data):
+	d_loc = get_death_change(data, 0)
+	if d_loc < 20:
+		# create null data to the top (20-d_loc)
+		# time line from [0] - (20-d_loc) days
+		# date range? 
+		pass
+	elif d_loc > 20:
+		# remove top rows up to (d_loc - 20) index
+		data = data.drop(data.index[0:(d_loc - 20)])
+	return data
 if __name__ == "__main__":
 	all_days = list()
 	for file in os.listdir('daily-stats/'):
@@ -78,13 +90,18 @@ if __name__ == "__main__":
 			all_days.append(load_daydata(f"daily-stats/{file}"))
 	
 	all_data = pd.concat(all_days).groupby(['countryRegion', 'date']).sum()
-	countries_interest = ['Belgium']
+	countries_interest = ['South Korea', 'Belgium']
 	data_sets = list()
 	for country in countries_interest:
 		new = all_data.loc[country]
+		new = norm_dayzero(new)
+		l = len(new.index)
+		i = range(l)
+		new['index'] = i
+		new = new.set_index(['index'])
 		all_estimates = list()
 		d = 0
-		while d < new['deaths'][-1]:
+		while d < new['deaths'].iloc[-1]:
 			est = create_estimate(new, 7, 1, d)
 			all_estimates.append(est)
 			d = new['deaths'][get_death_change(new, d)]

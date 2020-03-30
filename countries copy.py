@@ -23,18 +23,18 @@ if __name__ == "__main__":
 	
 	all_data = pd.concat(all_days).groupby(['countryRegion', 'date']).sum()
 	countries_list = sorted(set(list(zip(*all_data.index))[0]))
-	print(countries_list)
 	
 	# countries_interest = ['Finland', 'Italy', 'Iran', 'US', 'Japan', 'South Korea']
 	# countries_interest = ['Finland', 'France', 'UK', 'Germany', 'Belgium']
-	# countries_interest = ['Belgium']
+	countries_interest = ['South Korea']
 	# data_sets = list()
-	# for country in countries_interest:
-	# 	new = all_data.loc[country]
-	# 	l = len(new.index)
-	# 	i = range(l)
-	# 	new['index'] = i
-	# 	new = new.set_index(['index'])
+	for country in countries_interest:
+		new = all_data.loc[country]
+		l = len(new.index)
+		i = range(l)
+		new['index'] = i
+		new = new.set_index(['index'])
+		print(new)
 	# 	ratios = list()
 	# 	ratios.append(1)
 	# 	k = 1

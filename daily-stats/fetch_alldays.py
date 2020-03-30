@@ -8,41 +8,41 @@ import json
 def unify_countries(data):
 	for entry in data:
 		if entry["countryRegion"] == "Bahamas, The" or entry["countryRegion"] == "The Bahamas":
-			entry["countryRegion"] == "Bahamas"
+			entry["countryRegion"] = "Bahamas"
 		elif entry["countryRegion"] == "Czech Republic":
-			entry["countryRegion"] == "Czechia"
+			entry["countryRegion"] = "Czechia"
 		elif entry["countryRegion"] == "Iran (Islamic Republic of)":
-			entry["countryRegion"] == "Iran"
+			entry["countryRegion"] = "Iran"
 		elif entry["countryRegion"] == "Korea, South" or entry["countryRegion"] == "Republic of Korea":
-			entry["countryRegion"] == "South Korea"
+			entry["countryRegion"] = "South Korea"
 		elif entry["countryRegion"] == "Others":
-			entry["countryRegion"] == "Diamond Princess"
+			entry["countryRegion"] = "Diamond Princess"
 		elif entry["countryRegion"] == "Viet Nam":
-			entry["countryRegion"] == "Vietnam"
+			entry["countryRegion"] = "Vietnam"
 		elif entry["countryRegion"] == "occupied Palestinian territory":
-			entry["countryRegion"] == "Palestine"
+			entry["countryRegion"] = "Palestine"
 		elif entry["countryRegion"] == "Republic of Moldova":
-			entry["countryRegion"] == "Moldova"
+			entry["countryRegion"] = "Moldova"
 		elif entry["countryRegion"] == "Russia":
-			entry["countryRegion"] == "Russian Federation"
+			entry["countryRegion"] = "Russian Federation"
 		elif entry["countryRegion"] == "Taiwan*":
-			entry["countryRegion"] == "Taiwan"
+			entry["countryRegion"] = "Taiwan"
 		elif entry["countryRegion"] == "The Gambia" or entry["countryRegion"] == "Gambia, The":
-			entry["countryRegion"] == "Gambia"
+			entry["countryRegion"] = "Gambia"
 		elif entry["countryRegion"] == "United Kingdom":
-			entry["countryRegion"] == "UK"
+			entry["countryRegion"] = "UK"
 		if "\ufeffprovinceState" in entry.keys():
 			entry['provinceState'] = entry['\ufeffprovinceState']
 			del entry['\ufeffprovinceState']
 	return data
 
 # Start date
-start_datestr = "03/13/2020"
+start_datestr = "01/22/2020"
 start_date = datetime.datetime.strptime(start_datestr, "%m/%d/%Y")
 # End date
-end_datestr = "03/14/2020"
-end_date =datetime.datetime.strptime(end_datestr, "%m/%d/%Y")
-# end_date = datetime.datetime.fromtimestamp(time.time())
+# end_datestr = "03/14/2020"
+# end_date =datetime.datetime.strptime(end_datestr, "%m/%d/%Y")
+end_date = datetime.datetime.fromtimestamp(time.time())
 # Base url
 url = "https://covid19.mathdro.id/api/daily/"
 

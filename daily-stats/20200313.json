@@ -432,7 +432,7 @@
             "provinceState": "South Australia"
         },
         {
-            "countryRegion": "United Kingdom",
+            "countryRegion": "UK",
             "lastUpdate": "2020-03-11T20:00:00",
             "confirmed": "2",
             "deaths": "0",
@@ -862,7 +862,7 @@
             "provinceState": "Denmark"
         },
         {
-            "countryRegion": "United Kingdom",
+            "countryRegion": "UK",
             "lastUpdate": "2020-03-11T20:00:00",
             "confirmed": "798",
             "deaths": "8",
@@ -1132,7 +1132,7 @@
             "provinceState": ""
         },
         {
-            "countryRegion": "Korea, South",
+            "countryRegion": "South Korea",
             "lastUpdate": "2020-03-11T20:00:00",
             "confirmed": "7979",
             "deaths": "66",
@@ -1232,7 +1232,7 @@
             "provinceState": ""
         },
         {
-            "countryRegion": "Russia",
+            "countryRegion": "Russian Federation",
             "lastUpdate": "2020-03-11T20:00:00",
             "confirmed": "45",
             "deaths": "0",
@@ -1362,7 +1362,7 @@
             "provinceState": "Faroe Islands"
         },
         {
-            "countryRegion": "United Kingdom",
+            "countryRegion": "UK",
             "lastUpdate": "2020-03-11T20:00:00",
             "confirmed": "1",
             "deaths": "0",
@@ -2292,7 +2292,7 @@
             "provinceState": ""
         },
         {
-            "countryRegion": "Taiwan*",
+            "countryRegion": "Taiwan",
             "lastUpdate": "2020-03-11T20:00:00",
             "confirmed": "50",
             "deaths": "1",

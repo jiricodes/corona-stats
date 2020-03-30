@@ -73,7 +73,7 @@
         },
         {
             "provinceState": "",
-            "countryRegion": "Korea, South",
+            "countryRegion": "South Korea",
             "lastUpdate": "2020-03-21T11:13:12",
             "confirmed": "8799",
             "deaths": "102",
@@ -93,7 +93,7 @@
         },
         {
             "provinceState": "United Kingdom",
-            "countryRegion": "United Kingdom",
+            "countryRegion": "UK",
             "lastUpdate": "2020-03-21T20:43:03",
             "confirmed": "5018",
             "deaths": "233",
@@ -743,7 +743,7 @@
         },
         {
             "provinceState": "",
-            "countryRegion": "Russia",
+            "countryRegion": "Russian Federation",
             "lastUpdate": "2020-03-21T14:43:03",
             "confirmed": "306",
             "deaths": "1",
@@ -1083,7 +1083,7 @@
         },
         {
             "provinceState": "",
-            "countryRegion": "Taiwan*",
+            "countryRegion": "Taiwan",
             "lastUpdate": "2020-03-21T07:43:02",
             "confirmed": "153",
             "deaths": "2",
@@ -1833,7 +1833,7 @@
         },
         {
             "provinceState": "Channel Islands",
-            "countryRegion": "United Kingdom",
+            "countryRegion": "UK",
             "lastUpdate": "2020-03-21T21:13:29",
             "confirmed": "32",
             "deaths": "0",
@@ -2243,7 +2243,7 @@
         },
         {
             "provinceState": "Gibraltar",
-            "countryRegion": "United Kingdom",
+            "countryRegion": "UK",
             "lastUpdate": "2020-03-19T20:13:52",
             "confirmed": "10",
             "deaths": "0",
@@ -2383,7 +2383,7 @@
         },
         {
             "provinceState": "",
-            "countryRegion": "Bahamas, The",
+            "countryRegion": "Bahamas",
             "lastUpdate": "2020-03-21T02:43:03",
             "confirmed": "4",
             "deaths": "0",
@@ -2533,7 +2533,7 @@
         },
         {
             "provinceState": "Cayman Islands",
-            "countryRegion": "United Kingdom",
+            "countryRegion": "UK",
             "lastUpdate": "2020-03-19T20:13:56",
             "confirmed": "3",
             "deaths": "1",
@@ -2673,7 +2673,7 @@
         },
         {
             "provinceState": "Bermuda",
-            "countryRegion": "United Kingdom",
+            "countryRegion": "UK",
             "lastUpdate": "2020-03-21T03:13:14",
             "confirmed": "2",
             "deaths": "0",
@@ -2793,7 +2793,7 @@
         },
         {
             "provinceState": "",
-            "countryRegion": "Gambia, The",
+            "countryRegion": "Gambia",
             "lastUpdate": "2020-03-18T14:13:56",
             "confirmed": "1",
             "deaths": "0",
@@ -2893,7 +2893,7 @@
         },
         {
             "provinceState": "Isle of Man",
-            "countryRegion": "United Kingdom",
+            "countryRegion": "UK",
             "lastUpdate": "2020-03-20T15:13:21",
             "confirmed": "1",
             "deaths": "0",
@@ -2903,7 +2903,7 @@
         },
         {
             "provinceState": "Montserrat",
-            "countryRegion": "United Kingdom",
+            "countryRegion": "UK",
             "lastUpdate": "2020-03-18T11:53:04",
             "confirmed": "1",
             "deaths": "0",
@@ -3023,7 +3023,7 @@
         },
         {
             "provinceState": "",
-            "countryRegion": "The Bahamas",
+            "countryRegion": "Bahamas",
             "lastUpdate": "2020-03-19T12:13:38",
             "confirmed": "0",
             "deaths": "0",
@@ -3033,7 +3033,7 @@
         },
         {
             "provinceState": "",
-            "countryRegion": "The Gambia",
+            "countryRegion": "Gambia",
             "lastUpdate": "2020-03-18T14:13:56",
             "confirmed": "0",
             "deaths": "0",

@@ -33,7 +33,7 @@
         },
         {
             "provinceState": "",
-            "countryRegion": "Korea, South",
+            "countryRegion": "South Korea",
             "lastUpdate": "2020-03-15T18:20:18",
             "confirmed": "8162",
             "deaths": "75",
@@ -123,7 +123,7 @@
         },
         {
             "provinceState": "United Kingdom",
-            "countryRegion": "United Kingdom",
+            "countryRegion": "UK",
             "lastUpdate": "2020-03-14T14:53:04",
             "confirmed": "1140",
             "deaths": "21",
@@ -863,7 +863,7 @@
         },
         {
             "provinceState": "",
-            "countryRegion": "Russia",
+            "countryRegion": "Russian Federation",
             "lastUpdate": "2020-03-15T18:20:18",
             "confirmed": "63",
             "deaths": "0",
@@ -913,7 +913,7 @@
         },
         {
             "provinceState": "",
-            "countryRegion": "Taiwan*",
+            "countryRegion": "Taiwan",
             "lastUpdate": "2020-03-15T06:53:03",
             "confirmed": "59",
             "deaths": "1",
@@ -2013,7 +2013,7 @@
         },
         {
             "provinceState": "Channel Islands",
-            "countryRegion": "United Kingdom",
+            "countryRegion": "UK",
             "lastUpdate": "2020-03-15T18:20:19",
             "confirmed": "3",
             "deaths": "0",
@@ -2533,7 +2533,7 @@
         },
         {
             "provinceState": "Gibraltar",
-            "countryRegion": "United Kingdom",
+            "countryRegion": "UK",
             "lastUpdate": "2020-03-14T16:33:03",
             "confirmed": "1",
             "deaths": "0",
@@ -2573,7 +2573,7 @@
         },
         {
             "provinceState": "",
-            "countryRegion": "occupied Palestinian territory",
+            "countryRegion": "Palestine",
             "lastUpdate": "2020-03-11T20:53:02",
             "confirmed": "0",
             "deaths": "0",

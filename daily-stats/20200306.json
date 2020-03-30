@@ -113,7 +113,7 @@
         },
         {
             "provinceState": "Diamond Princess cruise ship",
-            "countryRegion": "Others",
+            "countryRegion": "Diamond Princess",
             "lastUpdate": "2020-03-06T01:29:39",
             "confirmed": "696",
             "deaths": "6",
@@ -683,7 +683,7 @@
         },
         {
             "provinceState": "",
-            "countryRegion": "Czech Republic",
+            "countryRegion": "Czechia",
             "lastUpdate": "2020-03-06T16:33:04",
             "confirmed": "18",
             "deaths": "0",
@@ -823,7 +823,7 @@
         },
         {
             "provinceState": "",
-            "countryRegion": "Russia",
+            "countryRegion": "Russian Federation",
             "lastUpdate": "2020-03-06T20:43:03",
             "confirmed": "13",
             "deaths": "0",
